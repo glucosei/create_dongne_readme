@@ -41,7 +41,7 @@
     ├─ controller/        
     ├─ service/           
     ├─ repository/        
-    ├─ domain/
+    ├─ domain/  
     │   ├─ model/         
     │   ├─ policy/        
     │   └─ validation/    
@@ -56,34 +56,20 @@
     ├─ exception/    
     └─ util/         
 
-#대표 도메인
-- User & Academic
+### 대표 도메인
+- User & Academic 회원, 학적 정보 관리
 
-  UserController, UserAcademicRecordApplicationController, UserCouncilFeeController
+- Circle & Community 동아리, 게시판, 게시글, 댓글/대댓글 등 커뮤니티 기능
 
-- Circle & Community
+- Event & Schedule 학사 일정, 행사, 학기/학사 관련 스케줄 관리
 
-  CircleController, BoardController, PostController, CommentController, ChildCommentController
-
-- Event & Schedule 
-
-  EventController, CalendarController, SemesterController, CeremonyController
-
-- Application & Form
-
-  FormController, InquiryController
+- Application & Form 폼 처리
 
 - Facility & Resource
 
-  LockerController, StorageController
+- Notification 푸시/알림 발송 및 로그 관리
 
-- Notification
-   
-  NotificationLogController, PushController
-
-- Common / Global
-
-  CommonController, GlobalExceptionHandler
+- Common / Global 공통 API, 전역 예외 처리 등 공용 기능
 
 
 ## 📂 디렉터리 구조 
