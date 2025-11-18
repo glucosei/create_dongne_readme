@@ -35,7 +35,56 @@
 ## 📌 주요 기능
 
 ## 🏗️ 시스템 아키텍처 
-- 전체 구조 간략 설명
+- app-main/
+
+ └─ src/main/java/net.causw.app.main
+    ├─ controller/        
+    ├─ service/           
+    ├─ repository/        
+    ├─ domain/
+    │   ├─ model/         
+    │   ├─ policy/        
+    │   └─ validation/    
+    ├─ dto/               
+    ├─ infrastructure/    
+    └─ CauswApplication
+  
+  -global/
+
+ └─ src/main/java/net.causw.global
+    ├─ constant/     
+    ├─ exception/    
+    └─ util/         
+
+#대표 도메인
+- User & Academic
+
+  UserController, UserAcademicRecordApplicationController, UserCouncilFeeController
+
+- Circle & Community
+
+  CircleController, BoardController, PostController, CommentController, ChildCommentController
+
+- Event & Schedule 
+
+  EventController, CalendarController, SemesterController, CeremonyController
+
+- Application & Form
+
+  FormController, InquiryController
+
+- Facility & Resource
+
+  LockerController, StorageController
+
+- Notification
+   
+  NotificationLogController, PushController
+
+- Common / Global
+
+  CommonController, GlobalExceptionHandler
+
 
 ## 📂 디렉터리 구조 
 
