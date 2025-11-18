@@ -1,38 +1,29 @@
-# create_dongne_readme
-
-  
 ## 🖥️ 프로젝트 소개
-- 실사용자 수
-- 주요 타겟:
-- 핵심 기능:
-- 서비스 링크:
-  
+![alt text](image.png)
+- 실사용자 수: 
+- 주요 타겟: 중앙대학교 소프트웨어대학 동문(크자회 회원)
+- 핵심 기능: 동문 수첩, 게시판, 학부 공지, 경조사 서비스
+- 서비스 링크: https://causw.co.kr
+
 ## 🕰️ 개발 기간
 * 언제부터 ~
 
 
 ### ⚙️ 개발 환경
-- **Language** :
-- **Framework** : 
-- **Database** : 
-- **ORM** : 
-- **Frontend**: 
-- **Build**: 
+- **Language** : Java
+- **Framework** : SpringBoot
+- **Database** : Amazon Aurora MySQL
+- **ORM** : JPA(Hibernate)
+- **Build**: Gradle 
 
 ## 🖥️ 서버 환경
-- Tomcat 
-- JSP 
-- Servlet 
-- JDK
-
-  
-## 시작하기
-작동방법 적기(적을필요있나싶음 이거는)
-
-## Prerequisites
-- 작동시키기위한 최소조건
+![alt text](image-1.png)
 
 ## 📌 주요 기능
+- 동문 수첩: 이용자의 프로필을 등록하고 회원들과 공유할 수 있는 동문 수첩 서비스를 운영합니다.<br>
+- 게시판: 회원들이 자유롭게 등록하고, 댓글을 달 수 있는 자유 게시판과 학생회 및 크자회의 공지를 등록하는 게시판등을 운영합니다.<br>
+- 학부 공지: 학부 홈페이지에 등록되는 공지들을 모아서 등록 및 공지해주는 서비스를 운영합니다.<br>
+- 경조사 서비스: 경조사를 등록하고 원하는 그룹에게 공유하는 서비스를 운영합니다.<br>
 
 ## 🏗️ 시스템 아키텍처 
 - app-main/
